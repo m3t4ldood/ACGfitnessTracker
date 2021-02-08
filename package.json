@@ -5,14 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node seeders/seed.js && node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/m3t4ldood/ACGfitnessTracker.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Anthony Gannuscio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/m3t4ldood/ACGfitnessTracker/issues"
