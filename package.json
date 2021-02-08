@@ -1,0 +1,26 @@
+{
+  "name": "ACGfitnessTracker",
+  "version": "1.0.0",
+  "description": "m3t4ldood.github.io/ACGfitnessTracker Unit 17 homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m3t4ldood/ACGfitnessTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m3t4ldood/ACGfitnessTracker/issues"
+  },
+  "homepage": "https://github.com/m3t4ldood/ACGfitnessTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0"
+  }
+}
